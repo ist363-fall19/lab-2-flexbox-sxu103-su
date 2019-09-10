@@ -1,0 +1,85 @@
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    height: 200px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.bluerow {
+    background-color: lightblue;
+    flex: 1;
+}
+
+.pinkrow-1 {
+    background-color: pink;
+    flex: 1;
+}
+
+.pinkrow-2 {
+    background-color: pink;
+    flex: 2;
+}
+
+.purplerow-1 {
+    background-color: purple;
+    flex: 2;
+}
+
+.purplerow-2 {
+    background-color: purple;
+    flex: 1;
+}
+
+.greencontainer {
+    justify-content: space-between;
+}
+
+.greenrow {
+    background-color: greenyellow;
+    width: 33.3%;
+}
+
+.tancontainer {
+    justify-content: center;
+}
+
+.tanrow {
+    background-color: tan;
+    width: 33.3%;
+}
+
+.greycontainer {
+    justify-content: space-around;
+}
+
+.greyrow {
+    background-color: gray;
+    width: 25%;
+}
+
+.seacontainer {
+    justify-content: flex-end;
+}
+
+.searow {
+    background-color: seagreen;
+    width: 16.67%;
+}
+
+.yellowcontainer {
+    justify-content: space-between;
+}
+
+.yellowrow-1 {
+    background-color: yellow;
+    width: 25%;
+}
+
+.yellowrow-2 {
+    width: 25%;
+}
